@@ -1,0 +1,130 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #de84c0;
+    background: -webkit-linear-gradient(left, #a613bc, #f10c0c, #2397d1);
+}
+
+.container {
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+}
+
+#newtask {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newtask input {
+    width: 75%;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+#newtask input:focus {
+    outline: none;
+    border-color: #f03906;
+}
+
+#newtask button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #d20dec;
+    border: none;
+    color: #d4d887;
+    cursor: pointer;
+    outline: none;
+}
+
+.task {
+    background: -webkit-linear-gradient(right, #e00a19, #f1e60c, #2397d1);
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+}
+
+.task button {
+    background-color: #031d72;
+    color: #ffffff;
+    width: 20%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#tasks {
+    background: -webkit-linear-gradient(left, #05d917, #08addb, #e90a85);
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
+
+#logo {
+    width: 100px;
+    height: 83px;
+    border-radius: 50%;
+}
+
+#items {
+    width: 80%;
+    height: 80px;
+    float: right;
+}
+
+#items,
+li {
+    display: inline;
+    text-align: center;
+    text-align: justify;
+    padding-right: 35px;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
